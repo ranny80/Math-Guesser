@@ -1,0 +1,21 @@
+{
+  "name": "math-guesser",
+  "version": "1.0.0",
+  "description": "This is where I can guess in math.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc -p ."
+  },
+  "author": "ranny80",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "prompt-sync": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "@types/prompt-sync": "^4.1.1",
+    "typescript": "^4.4.4"
+  }
+}
