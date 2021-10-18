@@ -8,7 +8,7 @@
     "build": "tsc -p ."
   },
   "author": "ranny80",
-  "license": "Apache-2.0",
+  "license": "UNLICENSED",
   "dependencies": {
     "dotenv": "^10.0.0",
     "prompt-sync": "^4.1.6"
