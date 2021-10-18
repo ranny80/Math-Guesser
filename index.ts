@@ -16,7 +16,7 @@ export function outoftries() {
 
 if (guess == process.env.NUMBER) {
     console.log("That's right! But, how did you guess it?");
-    const answer = prompt("Enter a question: ");
+    const answer = prompt("Enter an answer: ");
     console.log("Thanks for asking the question!");
 } else {
     console.log("Incorrect number. Please try again.");
@@ -26,7 +26,7 @@ if (guess == process.env.NUMBER) {
 
     if (guess == process.env.NUMBER) {
         console.log("That's right! But, how did you guess it?");
-        const answer = prompt("Enter a question: ");
+        const answer = prompt("Enter an answer: ");
         console.log("Thanks for asking the question!");
     } else {
         console.log("Incorrect number. Please try again.");
@@ -36,7 +36,7 @@ if (guess == process.env.NUMBER) {
 
         if (guess == process.env.NUMBER) {
             console.log("That's right! But, how did you guess it?");
-            const answer = prompt("Enter a question: ");
+            const answer = prompt("Enter an answer: ");
             console.log("Thanks for asking the question!");
         } else {
             tries = tries + 1;
