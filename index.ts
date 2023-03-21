@@ -1,4 +1,4 @@
-import * as dotenv from "dotenv";
+import * as dotenv from "dotenv"; 
 import promptSync from "prompt-sync";
 
 const prompt = promptSync();
